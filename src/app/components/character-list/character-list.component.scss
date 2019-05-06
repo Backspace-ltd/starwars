@@ -1,0 +1,23 @@
+.app-character-list {
+  max-width: 500px;
+  margin: 0 auto;
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #50b4d8;
+    cursor: pointer;
+    transition: transform .3s;
+
+    &_even {
+      background-color: #eb3d54;
+    }
+
+    &:hover {
+      transform: scale(0.98);
+    }
+  }
+}
